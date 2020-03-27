@@ -1,0 +1,26 @@
+root:$6$n0zFPOGZb1TElLLA$eZXN.HP4l6nM6YusC2AIlTwC0au8./sjZP1SU7MfuPOBxWwWrpGZqV7Gepi8E2.l1Ag2oz1ALzT.v3k6GKH8U1:0:0:root:/root:/bin/bash
+bin:*:1:1:bin:/bin:/sbin/nologin
+daemon:*:2:2:daemon:/sbin:/sbin/nologin
+adm:*:3:4:adm:/var/adm:/sbin/nologin
+lp:*:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:*:5:0:sync:/sbin:/bin/sync
+shutdown:*:6:0:shutdown:/sbin:/sbin/shutdown
+halt:*:7:0:halt:/sbin:/sbin/halt
+mail:*:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:*:11:0:operator:/root:/sbin/nologin
+games:*:12:100:games:/usr/games:/sbin/nologin
+ftp:*:14:50:FTP User:/var/ftp:/sbin/nologin
+tss:!!:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+sshd:!!:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+dbus:!!:81:81:System message bus:/:/sbin/nologin
+postfix:!!:89:89::/var/spool/postfix:/sbin/nologin
+nobody:*:99:99:Nobody:/:/sbin/nologin
+abrt:!!:173:173::/etc/abrt:/sbin/nologin
+systemd-network:!!:192:192:systemd Network Management:/:/sbin/nologin
+polkitd:!!:999:997:User for polkitd:/:/sbin/nologin
+user8:!!:0:3003::/home/user8:/bin/bash
+user9:!!:0:3004::/home/user2:/bin/bash
+user10:$6$HHnyvJAX$QPli7pukiqvq6Td5w3nh53YC2mFlAqM8cC.X7J3dfugCOthixevTznl5wctlGdUxds6CyYutpAfAKRv12JL3P1:0:3005::/root:/bin/bash
+sathishroot:!!:0:3006::/home/sathishroot:/bin/bash
+named:!!:25:25:Named:/var/named:/sbin/nologin
+apache:!!:48:48:Apache:/usr/share/httpd:/sbin/nologin
